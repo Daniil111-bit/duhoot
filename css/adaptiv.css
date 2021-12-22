@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'fff';
+    src: url(Fonts/gotham_book.otf);
+}
+/* Header menu links */
+
+@media screen and (max-width: 904px) {
+    .header-link{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 904px) {
+    .header-link{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 827px) {
+    .header-menu{
+        display: none;
+    }
+}
+
+/* Header menu links */
+
+
+/* Header buttons padding */
+
+@media screen and (max-width: 768px) {
+    .lupa{
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .lupa{
+        padding: 5px;
+    }
+    .header-logo{
+        font-size: 0;
+    }
+    .header-logo img{
+        width: 80%;
+        height: auto;
+        font-size: 0;
+    }
+}
+
+/* Header buttons padding  END*/
+
+/* Main adaptiv START*/
+
+@media screen and (max-width: 575px) {
+    .main-inner{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateY(-2%);
+    }
+    .main-title{
+        font-size: 24px;
+    }
+    .main-selects{
+        width: 100%;
+    }
+    .main-select-two{
+        margin: 0 -5px 23px -5px;
+    }
+    .select-item{
+        margin: 0 5px;
+        width: 100%;
+    }
+    .main-bg{
+        background-position: 0 0;
+    }
+}
